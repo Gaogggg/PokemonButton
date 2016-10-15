@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PokemonButton">
+        <attr name="pokemon_name" format="string" />
+        <attr name="pokemon_type" format="string"/>
+        <attr name="icon_size" format="dimension|reference"/>
+        <attr name="pokemon_catched_drawable" format="reference" />
+        <attr name="pokemon_uncatched_drawable" format="reference" />
+        <attr name="top_half_ball_color" format="color|reference" />
+        <attr name="catched" format="boolean"/>
+        <attr name="is_enabled" format="boolean"/>
+        <attr name="anim_scale_factor" format="float"/>
+    </declare-styleable>
+</resources>
