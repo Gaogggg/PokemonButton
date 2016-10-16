@@ -75,7 +75,7 @@ Any contributions, large or small, major features, bug fixes, additional languag
 License
 -------
 
-    Copyright 2014 Nico Hormazábal
+    Copyright 2014 G
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
