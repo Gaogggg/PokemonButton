@@ -28,26 +28,26 @@ You can create your own pokemon button in xml like this (remember to add ```xmln
 Or in code:
 
 ```Java
-PokemonButton pokemonButton = new PokemonButton(context);
-pokemonButton.setPokemon(PokemonName.Pikachu);
-...
+   PokemonButton pokemonButton = new PokemonButton(context);
+   pokemonButton.setPokemon(PokemonName.Pikachu);
+   ...
 
 ```
 
 Set an OnCatchListener to the button:
 
 ```Java
-        pokemonButton.setOncatchListener(new OnCatchListener() {
-            @Override
-            public void catched(PokemonButton pokemonButton) {
+   pokemonButton.setOncatchListener(new OnCatchListener() {
+       @Override
+       public void catched(PokemonButton pokemonButton) {
                 
-            }
+       }
 
-            @Override
-            public void unCatched(PokemonButton pokemonButton) {
+       @Override
+       public void unCatched(PokemonButton pokemonButton) {
 
-            }
-        });
+       }
+   });
 ```
 
 Configure using xml attributes or setters in code:
@@ -77,14 +77,4 @@ License
 
     Copyright 2014 G
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+    Licensed under the Apache 
