@@ -10,7 +10,9 @@ Inspired from [LikeButton](https://github.com/jd-alexander/LikeButton) and [Like
 
 ## Including in your project
 
-```compile 'pku.edu.gg.pokemonbutton:app:unspecified'```
+Include the library as local library project.
+
+```compile 'pku.edu.gg.pokemonbutton:app:0.1.0'```
 
 ## Usage
 
@@ -75,7 +77,7 @@ Any contributions, large or small, major features, bug fixes, additional languag
 License
 -------
 
-    Copyright 2014 G
+    Copyright 2016 G
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
