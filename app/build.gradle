@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
+version = "0.1.0"
+
 android {
     compileSdkVersion 24
     buildToolsVersion "21.1.2"
@@ -10,8 +12,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1
-        versionName version
+        versionCode 2
+        versionName "0.1.0"
     }
     buildTypes {
         release {
@@ -38,7 +40,7 @@ install {
             project {
                 packaging 'aar'
                 // Add your description here
-                name 'Android Pokemon Style Button'
+                name 'pokemonbutton'
                 url siteUrl
                 // Set your license
                 licenses {
