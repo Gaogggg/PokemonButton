@@ -4,6 +4,8 @@ Pokemon Button (Twitter's like animation).
 
 Inspired from [LikeButton](https://github.com/jd-alexander/LikeButton) and [LikeAnimation](https://github.com/frogermcs/LikeAnimation).
 
+This is an example code described in blog post [PokemonButton](http://ggao93.cn/pokemonbutton/).
+
 ## Screenshots
 
 ![pokemon button](pokemonbutton.gif)
@@ -25,15 +27,6 @@ You can create your own pokemon button in xml like this (remember to add ```xmln
        app:icon_size="25dp"
        app:pokemon_name="pikachu"
        app:pokemon_type="electric"/>
-```
-
-Or in code:
-
-```Java
-   PokemonButton pokemonButton = new PokemonButton(context);
-   pokemonButton.setPokemon(PokemonName.Pikachu);
-   ...
-
 ```
 
 Set an OnCatchListener to the button:
