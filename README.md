@@ -4,7 +4,7 @@ Pokemon Button (Twitter's like animation).
 
 Inspired from [LikeButton](https://github.com/jd-alexander/LikeButton) and [LikeAnimation](https://github.com/frogermcs/LikeAnimation).
 
-This is an example code described in blog post [PokemonButton](http://ggao93.cn/pokemonbutton/).
+This is an example code described in blog post [PokemonButton](https://gaogggg.github.io/post/android/pokemon-button/).
 
 ## Screenshots
 
